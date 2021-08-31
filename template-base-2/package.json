@@ -32,5 +32,12 @@
     "hooks": {
       "pre-commit": "cd template && lint-staged"
     }
+  },
+  "devDependencies": {
+    "create-react-app": "^4.0.3",
+    "react-dev-utils": "^11.0.4"
+  },
+  "dependencies": {
+    "react-app-rewired": "^2.1.8"
   }
 }

@@ -1,5 +1,6 @@
 ---
 to: src/data/sources/<%= h.changeCase.camelCase(name) -%>.js
+unless_exists: true
 ---
 import { MAP_TYPES } from '@deck.gl/carto';
 
